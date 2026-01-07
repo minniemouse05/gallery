@@ -4,93 +4,90 @@ import GalleryGrid, { GalleryImage } from "@/components/GalleryGrid";
 const images: GalleryImage[] = [
   {
     src: "/little-things/01.png",
-    alt: "A pressed flower from a spring walk",
-    title: "Pressed Flower",
+    alt: "Hot latte",
+    title: "Hot Latte",
     description:
-      "Found on a slow morning walk last April. The light was soft and golden, and I remember feeling, for once, completely unhurried.",
+      "Accompanied me through so many study sessions at cafes across Boston. Even with imminent exams and numerous problem sets, a smooth sip can provide temporary reprieve, making me feel completely unhurried.",
   },
   {
     src: "/little-things/02.png",
-    alt: "Vintage postage stamp",
-    title: "Postage Stamp",
+    alt: "Matcha latte",
+    title: "Matcha Latte",
     description:
-      "From a letter my grandmother sent years ago. She always used the prettiest stamps, as if the envelope itself was part of the gift.",
+      "Nothing like a refreshing sip from a drink half full of ice. Choosing a flavor can be the highlight of my day, whether I go for tried and true flavors like strawberry or a new seasonal flavor like a festive cranberry. ",
   },
   {
     src: "/little-things/03.png",
-    alt: "Handwritten note on torn paper",
-    title: "Handwritten Note",
+    alt: "Diet coke",
+    title: "Diet Coke",
     description:
-      "A scribbled reminder from a friend, left on my desk when I needed it most. The words were simple, but they stayed with me.",
+      "Better than Coke Zero. Sharing one with a friend. Inhaling the crisp carbonation. The action may be simple, but it stays with you.",
     scale: 1.15,
   },
   {
     src: "/little-things/04.png",
-    alt: "Old photograph corner",
-    title: "Photograph Corner",
+    alt: "Snowy jasmine",
+    title: "Snowy Jasmine",
     description:
-      "Torn from an album I found at a flea market. I don't know the people in it, but their joy felt familiar somehow.",
+      "From a place I didn't think I would like at first. Candied pecans and light whipped cream. A floral jasmine flavor that sparks nostalgia even though there's only new memories being created.",
   },
   {
     src: "/little-things/05.png",
-    alt: "Dried leaf with delicate veins",
-    title: "Autumn Leaf",
+    alt: "Core power",
+    title: "Core Power",
     description:
-      "Picked up on the first cold day of fall. I was walking alone, thinking about change, and this leaf felt like a quiet answer.",
-    scale: .8,
+      "A core memory from Iceland grocery stores. A permanent fixture in my Ninja creami concotions from Dallas, TX.",
+    scale: 0.8,
   },
   {
     src: "/little-things/06.png",
-    alt: "Ticket stub from a memorable night",
-    title: "Ticket Stub",
-    description:
-      "From a show I almost didn't go to. I'm grateful I said yes that night—it changed the way I think about spontaneity.",
+    alt: "Hey Tea mango boom",
+    title: "Hey Tea Mango Boom",
+    description: "3 big booms. BOOM BOOM BOOM",
   },
   {
     src: "/little-things/07.png",
-    alt: "Washi tape fragment",
-    title: "Washi Tape",
-    description:
-      "A scrap left over from wrapping a birthday gift. The person I gave it to made me feel seen in a way I hadn't expected.",
-    scale: .95,
+    alt: "GT Synergy Kombucha",
+    title: "GT Synergy Kombucha",
+    description: "Kombucha makes me poop-a",
+    scale: 0.95,
   },
   {
     src: "/little-things/08.png",
-    alt: "Pressed clover",
-    title: "Four-Leaf Clover",
+    alt: "Hojicha Latte",
+    title: "Hojicha Latte",
     description:
-      "My niece found this and handed it to me with such seriousness. 'For your luck,' she said. I've kept it ever since.",
-    scale: .75,
+      "A perfect roasted flavor that combines the best of coffee and matcha together. A warm hug in the crisp fall air of Boston.",
+    scale: 0.75,
   },
   {
     src: "/little-things/09.png",
-    alt: "Vintage button",
-    title: "Old Button",
+    alt: "Banana Pudding Latte",
+    title: "Banana Pudding Latte",
     description:
-      "Fell off my mother's coat when I was small. I kept it in my pocket for weeks, a tiny piece of her warmth.",
+      "My brain was rewired the first time I tried banana pudding. Add it to anything and everything. I'm there.",
     scale: 1.05,
   },
   {
     src: "/little-things/10.png",
-    alt: "Ribbon scrap",
-    title: "Ribbon",
-    description:
-      "Saved from a package that arrived on a hard day. The gift inside mattered less than knowing someone thought of me.",
+    alt: "Hot water",
+    title: "Hot Water",
+    description: "Hot water for a very Chinese time in my life.",
+    scale: 0.85,
   },
   {
     src: "/little-things/11.png",
-    alt: "Seashell from the coast",
-    title: "Seashell",
-    description:
-      "Collected on a trip where nothing went as planned—and everything turned out better for it. The ocean has a way of resetting things.",
+    alt: "Avocado Smoothie",
+    title: "Teado Avocado Smoothie",
+    description: "30% sugar, no boba. Thank me later. ",
     scale: 1.1,
   },
   {
     src: "/little-things/12.png",
-    alt: "Feather found on a quiet morning",
-    title: "Feather",
+    alt: "Sparkling Ice",
+    title: "Sparkling Ice",
     description:
-      "Found on my doorstep one still morning. I like to think it was left there on purpose, a small sign that I was exactly where I needed to be.",
+      "My OG before I found Diet Coke. I know I can always count on you. My day one-er <3.",
   },
 ];
 
@@ -105,18 +102,17 @@ export default function Home() {
         <Reveal className="mt-24 sm:mt-32 md:mt-40">
           <section className="flex flex-col items-center text-center">
             <h1 className="text-2xl font-light tracking-tight text-neutral-900 sm:text-3xl md:text-4xl">
-              A million little things to be grateful for.
+              A million little sips to be grateful for.
             </h1>
 
             <div className="mt-12 flex flex-col gap-1 text-sm font-light tracking-wide text-neutral-500">
-              <span>Little Things</span>
-              <span>2025</span>
-              <span>craftwithanna</span>
-              <span>Ephemera, mixed media</span>
+              <span>Silly Little Drinks</span>
+              <span>2026</span>
+              <span>Minnie Liang</span>
             </div>
 
             <p className="mt-10 max-w-md text-base font-light leading-relaxed text-neutral-600">
-              A digitized collection of small, ordinary objects, each carrying a
+              A digitized collection of special little drinks, each carrying a
               memory, a moment, or a person that I feel grateful for.
             </p>
           </section>

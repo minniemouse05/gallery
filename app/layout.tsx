@@ -9,9 +9,9 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Little Things",
+  title: "Little Sips",
   description:
-    "A digitized collection of small, ordinary objects, each carrying a memory, a moment, or a person that I feel grateful for.",
+    "A digitized collection of special little drinks, each carrying a memory, a moment, or a person that I feel grateful for.",
 };
 
 export default function RootLayout({
