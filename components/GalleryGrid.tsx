@@ -202,6 +202,8 @@ export default function GalleryGrid({ images }: GalleryGridProps) {
         onClose={() => setSelectedImage(null)}
         title={selectedImage?.title ?? ""}
         description={selectedImage?.description ?? ""}
+        imageSrc={selectedImage?.src}
+        imageAlt={selectedImage?.alt}
       />
     </div>
   );
