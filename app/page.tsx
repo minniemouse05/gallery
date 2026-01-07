@@ -22,6 +22,7 @@ const images: GalleryImage[] = [
     title: "Handwritten Note",
     description:
       "A scribbled reminder from a friend, left on my desk when I needed it most. The words were simple, but they stayed with me.",
+    scale: 1.05,
   },
   {
     src: "/little-things/04.png",
@@ -36,6 +37,7 @@ const images: GalleryImage[] = [
     title: "Autumn Leaf",
     description:
       "Picked up on the first cold day of fall. I was walking alone, thinking about change, and this leaf felt like a quiet answer.",
+    scale: .8,
   },
   {
     src: "/little-things/06.png",
@@ -43,6 +45,7 @@ const images: GalleryImage[] = [
     title: "Ticket Stub",
     description:
       "From a show I almost didn't go to. I'm grateful I said yes that night—it changed the way I think about spontaneity.",
+    scale: .95,
   },
   {
     src: "/little-things/07.png",
@@ -57,6 +60,7 @@ const images: GalleryImage[] = [
     title: "Four-Leaf Clover",
     description:
       "My niece found this and handed it to me with such seriousness. 'For your luck,' she said. I've kept it ever since.",
+    scale: .75,
   },
   {
     src: "/little-things/09.png",
@@ -64,6 +68,7 @@ const images: GalleryImage[] = [
     title: "Old Button",
     description:
       "Fell off my mother's coat when I was small. I kept it in my pocket for weeks, a tiny piece of her warmth.",
+    scale: 1.05,
   },
   {
     src: "/little-things/10.png",
@@ -78,6 +83,7 @@ const images: GalleryImage[] = [
     title: "Seashell",
     description:
       "Collected on a trip where nothing went as planned—and everything turned out better for it. The ocean has a way of resetting things.",
+    scale: 1.1,
   },
   {
     src: "/little-things/12.png",
@@ -91,7 +97,7 @@ const images: GalleryImage[] = [
 export default function Home() {
   return (
     <main className="min-h-screen bg-white">
-      <div className="mx-auto max-w-6xl px-6 py-24 sm:py-32 md:py-40">
+      <div className="mx-auto max-w-6xl px-6 py-16 sm:py-20 md:py-24">
         {/* Gallery Grid - 3 columns x 4 rows */}
         <GalleryGrid images={images} />
 
